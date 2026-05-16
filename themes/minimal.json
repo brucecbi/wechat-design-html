@@ -1,0 +1,25 @@
+{
+  "id": "minimal",
+  "name": "Minimal",
+  "source": "in-house (no brand attribution)",
+  "description": "Neutral black-and-white baseline. Use when content should carry no brand flavor — internal memos, formal reports, anything that needs to read as house-style rather than brand-styled.",
+  "preview": "Pure black & white · system sans",
+  "style": {
+    "accent": "#333333",
+    "accent_light": "rgba(0,0,0,0.03)",
+    "accent_border": "rgba(0,0,0,0.1)",
+    "accent_bg": "rgba(0,0,0,0.05)",
+    "text": "#333333",
+    "text_2": "#555555",
+    "text_dark": "#000000",
+    "text_light": "#666666",
+    "text_muted": "#999999",
+    "bg": "#ffffff",
+    "card_bg": "#fafafa",
+    "border": "#e0e0e0",
+    "border_light": "#f0f0f0",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "framer",
+  "name": "Framer",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/framer",
+  "description": "Framer · signature blue (#0099ff) accent on white. Light interpretation of Framer's poster-tight tracking and confident builder-marketing voice; the brand's dark canvas is degraded for WeChat reading.",
+  "preview": "Framer blue · poster-tight precision",
+  "style": {
+    "accent": "#0099ff",
+    "accent_light": "rgba(0,153,255,0.06)",
+    "accent_border": "rgba(0,153,255,0.2)",
+    "accent_bg": "rgba(0,153,255,0.08)",
+    "text": "#3a3a3a",
+    "text_2": "#1a1a1a",
+    "text_dark": "#000000",
+    "text_light": "#6c6c6c",
+    "text_muted": "#999999",
+    "bg": "#ffffff",
+    "card_bg": "#fafafa",
+    "border": "#e6e6e6",
+    "border_light": "#f1f1f1",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

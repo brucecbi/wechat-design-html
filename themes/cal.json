@@ -1,0 +1,25 @@
+{
+  "id": "cal",
+  "name": "Cal.com",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/cal",
+  "description": "Cal.com · stark black primary on white with a slight gray off-canvas. Calendar-software minimalism — black-pill CTAs, generous whitespace, tabular-figure quiet confidence.",
+  "preview": "Cal black · booking-grade minimalism",
+  "style": {
+    "accent": "#111111",
+    "accent_light": "rgba(17,17,17,0.04)",
+    "accent_border": "rgba(17,17,17,0.18)",
+    "accent_bg": "rgba(17,17,17,0.06)",
+    "text": "#374151",
+    "text_2": "#1f2937",
+    "text_dark": "#111111",
+    "text_light": "#6b7280",
+    "text_muted": "#9ca3af",
+    "bg": "#ffffff",
+    "card_bg": "#f8f9fa",
+    "border": "#e5e7eb",
+    "border_light": "#f3f4f6",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

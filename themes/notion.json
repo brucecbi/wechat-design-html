@@ -1,0 +1,25 @@
+{
+  "id": "notion",
+  "name": "Notion",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/notion",
+  "description": "Notion · signature purple (#5645d4) accent on a slightly off-white canvas. The all-in-one workspace's editorial voice — clean, illustration-rich, knowledge-base classic.",
+  "preview": "Notion purple · knowledge-base editorial",
+  "style": {
+    "accent": "#5645d4",
+    "accent_light": "rgba(86,69,212,0.06)",
+    "accent_border": "rgba(86,69,212,0.2)",
+    "accent_bg": "rgba(86,69,212,0.08)",
+    "text": "#37352f",
+    "text_2": "#252323",
+    "text_dark": "#1a1a1a",
+    "text_light": "#787774",
+    "text_muted": "#9b9a97",
+    "bg": "#fdfdfb",
+    "card_bg": "#fafaf9",
+    "border": "#e6e3df",
+    "border_light": "#ede9e4",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

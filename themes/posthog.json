@@ -1,0 +1,25 @@
+{
+  "id": "posthog",
+  "name": "PostHog",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/posthog",
+  "description": "PostHog · saturated yellow-orange (#f7a501) on a warm cream canvas with olive-charcoal ink. The only theme in this set that breaks white-canvas convention — a playful engineering-blog feel.",
+  "preview": "Yellow-orange on cream · playful engineering",
+  "style": {
+    "accent": "#f7a501",
+    "accent_light": "rgba(247,165,1,0.07)",
+    "accent_border": "rgba(247,165,1,0.25)",
+    "accent_bg": "rgba(247,165,1,0.1)",
+    "text": "#4d4f46",
+    "text_2": "#33342d",
+    "text_dark": "#23251d",
+    "text_light": "#6c6e63",
+    "text_muted": "#9b9c92",
+    "bg": "#eeefe9",
+    "card_bg": "#ffffff",
+    "border": "#bfc1b7",
+    "border_light": "#dcdfd2",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

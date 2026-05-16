@@ -1,0 +1,25 @@
+{
+  "id": "claude",
+  "name": "Claude",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/claude",
+  "description": "Anthropic Claude · cream canvas with terracotta accent and serif editorial headlines. Warm humanist palette that contrasts the cool blue-slate norm of AI brands.",
+  "preview": "Cream + terracotta · serif headlines",
+  "style": {
+    "accent": "#cc785c",
+    "accent_light": "rgba(204,120,92,0.06)",
+    "accent_border": "rgba(204,120,92,0.2)",
+    "accent_bg": "rgba(204,120,92,0.08)",
+    "text": "#3d3d3a",
+    "text_2": "#5a4e3c",
+    "text_dark": "#141413",
+    "text_light": "#6c6a64",
+    "text_muted": "#8e8b82",
+    "bg": "#faf9f5",
+    "card_bg": "#f5f0e8",
+    "border": "#e6dfd8",
+    "border_light": "#ebe6df",
+    "font_heading": "Georgia, 'Songti SC', 'STSong', 'SimSun', serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

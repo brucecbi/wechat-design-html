@@ -1,0 +1,25 @@
+{
+  "id": "stripe",
+  "name": "Stripe",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/stripe",
+  "description": "Stripe · indigo accent on cool white canvas, with deep navy ink. The gold-standard developer-fintech aesthetic — disciplined typography, micro-color discipline, dense information density.",
+  "preview": "Indigo + navy ink · cool white canvas",
+  "style": {
+    "accent": "#533afd",
+    "accent_light": "rgba(83,58,253,0.06)",
+    "accent_border": "rgba(83,58,253,0.2)",
+    "accent_bg": "rgba(83,58,253,0.08)",
+    "text": "#273951",
+    "text_2": "#1c1e54",
+    "text_dark": "#0d253d",
+    "text_light": "#64748d",
+    "text_muted": "#61718a",
+    "bg": "#f6f9fc",
+    "card_bg": "#ffffff",
+    "border": "#e3e8ee",
+    "border_light": "#eef2f7",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

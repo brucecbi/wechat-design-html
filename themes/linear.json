@@ -1,0 +1,25 @@
+{
+  "id": "linear",
+  "name": "Linear",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/linear.app",
+  "description": "Linear · lavender-violet (#5e6ad2) is the brand's signature single-color accent. Light-interpretation since WeChat reading prefers light surfaces; the dark canvas Linear uses on its marketing site is degraded to off-white.",
+  "preview": "Lavender violet · technical software-craft",
+  "style": {
+    "accent": "#5e6ad2",
+    "accent_light": "rgba(94,106,210,0.06)",
+    "accent_border": "rgba(94,106,210,0.2)",
+    "accent_bg": "rgba(94,106,210,0.08)",
+    "text": "#3a3a40",
+    "text_2": "#2a2a30",
+    "text_dark": "#0d0e10",
+    "text_light": "#62666d",
+    "text_muted": "#8a8f98",
+    "bg": "#fafafa",
+    "card_bg": "#ffffff",
+    "border": "#e6e6ea",
+    "border_light": "#efeff2",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

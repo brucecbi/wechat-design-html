@@ -1,0 +1,25 @@
+{
+  "id": "supabase",
+  "name": "Supabase",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/supabase",
+  "description": "Supabase · signature emerald-green (#3ecf8e) accent on white. Open-source database-platform aesthetic — clean neutrals, single saturated brand color.",
+  "preview": "Supabase emerald · open-source clean",
+  "style": {
+    "accent": "#3ecf8e",
+    "accent_light": "rgba(62,207,142,0.06)",
+    "accent_border": "rgba(62,207,142,0.2)",
+    "accent_bg": "rgba(62,207,142,0.08)",
+    "text": "#3c3c3c",
+    "text_2": "#212121",
+    "text_dark": "#171717",
+    "text_light": "#707070",
+    "text_muted": "#a3a3a3",
+    "bg": "#ffffff",
+    "card_bg": "#fafafa",
+    "border": "#dfdfdf",
+    "border_light": "#ededed",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

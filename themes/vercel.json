@@ -1,0 +1,25 @@
+{
+  "id": "vercel",
+  "name": "Vercel",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/vercel",
+  "description": "Vercel · pure black-and-white minimalism, Geist-style precision. Single-color accent (black), generous whitespace, frontend-deployment platform aesthetic.",
+  "preview": "Pure black on white · disciplined minimalism",
+  "style": {
+    "accent": "#000000",
+    "accent_light": "rgba(0,0,0,0.04)",
+    "accent_border": "rgba(0,0,0,0.18)",
+    "accent_bg": "rgba(0,0,0,0.06)",
+    "text": "#52525b",
+    "text_2": "#3f3f46",
+    "text_dark": "#000000",
+    "text_light": "#71717a",
+    "text_muted": "#a1a1aa",
+    "bg": "#fafafa",
+    "card_bg": "#ffffff",
+    "border": "#e4e4e7",
+    "border_light": "#f4f4f5",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

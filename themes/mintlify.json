@@ -1,0 +1,25 @@
+{
+  "id": "mintlify",
+  "name": "Mintlify",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/mintlify",
+  "description": "Mintlify · brand-green (#00d4a4) accent on white. Documentation-platform clarity — Inter prose with a focused green CTA color, perfect for technical writing.",
+  "preview": "Mint green · documentation-first clarity",
+  "style": {
+    "accent": "#00d4a4",
+    "accent_light": "rgba(0,212,164,0.06)",
+    "accent_border": "rgba(0,212,164,0.2)",
+    "accent_bg": "rgba(0,212,164,0.08)",
+    "text": "#3a3a3a",
+    "text_2": "#1f1f1f",
+    "text_dark": "#0a0a0a",
+    "text_light": "#737373",
+    "text_muted": "#a8a8aa",
+    "bg": "#ffffff",
+    "card_bg": "#fafafa",
+    "border": "#e5e5e5",
+    "border_light": "#ededed",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

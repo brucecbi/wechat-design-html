@@ -1,0 +1,25 @@
+{
+  "id": "figma",
+  "name": "Figma",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/figma",
+  "description": "Figma · the brand's signature red (#f24e1e) as the single accent, on a confident black-and-white editorial canvas. Figma's marker-dot color system is reduced to a focused single hue for WeChat reading.",
+  "preview": "Figma red on white · editorial confidence",
+  "style": {
+    "accent": "#f24e1e",
+    "accent_light": "rgba(242,78,30,0.06)",
+    "accent_border": "rgba(242,78,30,0.2)",
+    "accent_bg": "rgba(242,78,30,0.08)",
+    "text": "#1e1e1e",
+    "text_2": "#0d0d0d",
+    "text_dark": "#000000",
+    "text_light": "#6c6c6c",
+    "text_muted": "#999999",
+    "bg": "#ffffff",
+    "card_bg": "#f7f7f5",
+    "border": "#e6e6e6",
+    "border_light": "#f1f1f1",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

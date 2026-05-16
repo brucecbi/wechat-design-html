@@ -1,0 +1,25 @@
+{
+  "id": "airbnb",
+  "name": "Airbnb",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/airbnb",
+  "description": "Airbnb · the iconic Rausch coral (#ff385c) as the single accent, on a warm white canvas. Consumer-friendly, hospitality-grade typography rhythm.",
+  "preview": "Rausch coral · warm consumer hospitality",
+  "style": {
+    "accent": "#ff385c",
+    "accent_light": "rgba(255,56,92,0.06)",
+    "accent_border": "rgba(255,56,92,0.2)",
+    "accent_bg": "rgba(255,56,92,0.08)",
+    "text": "#3f3f3f",
+    "text_2": "#222222",
+    "text_dark": "#222222",
+    "text_light": "#717171",
+    "text_muted": "#b0b0b0",
+    "bg": "#ffffff",
+    "card_bg": "#f7f7f7",
+    "border": "#dddddd",
+    "border_light": "#ebebeb",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

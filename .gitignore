@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Build / temp
+/dist/
+/build/
+*.html.bak-*
+
+# Local previews (don't commit generated samples)
+/previews/
+*.preview.html

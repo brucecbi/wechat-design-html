@@ -1,0 +1,25 @@
+{
+  "id": "slack",
+  "name": "Slack",
+  "source": "https://github.com/VoltAgent/awesome-design-md/tree/main/design-md/slack",
+  "description": "Slack · the deep aubergine purple (#4a154b) as the single accent on white. Workplace messaging gravitas — distinctive without being loud.",
+  "preview": "Aubergine purple · enterprise messaging",
+  "style": {
+    "accent": "#4a154b",
+    "accent_light": "rgba(74,21,75,0.06)",
+    "accent_border": "rgba(74,21,75,0.2)",
+    "accent_bg": "rgba(74,21,75,0.08)",
+    "text": "#454545",
+    "text_2": "#2c2c2c",
+    "text_dark": "#1d1d1d",
+    "text_light": "#696969",
+    "text_muted": "#a0a0a0",
+    "bg": "#ffffff",
+    "card_bg": "#fafafa",
+    "border": "#e6e6e6",
+    "border_light": "#f1f1f1",
+    "font_heading": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}
