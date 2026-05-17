@@ -1,8 +1,9 @@
 ---
 name: wechat-design-html
 description: >
-  将 Markdown 文章转换为微信公众号兼容的内联样式 HTML 片段，附 16 个主题
-  （15 个从 voltagent/awesome-design-md 派生的品牌主题 + 1 个中性 minimal）。
+  将 Markdown 文章转换为微信公众号兼容的内联样式 HTML 片段，附 17 个主题
+  （15 个从 voltagent/awesome-design-md 派生的品牌主题 + 1 个原创社论风 economist
+  + 1 个中性 minimal）。
   输出 <section> 包裹的 HTML，可直接粘贴到公众号「源代码模式」。纯 Python
   stdlib、零依赖、单文件可审计。不做草稿上传（请与 md2wechat / wechat-publish
   组合使用）。
@@ -14,7 +15,7 @@ trigger_examples:
   - 这篇文章做成 PostHog 米色底排版
   - /wechat-design-html article.md -t notion -o wechat.html
   - 用 Claude 主题排版这篇推文
-version: 1.0.0
+version: 1.1.0
 metadata:
   homepage: https://github.com/brucecbi/wechat-design-html
   source: voltagent/awesome-design-md (MIT)
@@ -22,14 +23,14 @@ metadata:
 
 # WeChat Design HTML
 
-Markdown → 微信公众号内联样式 HTML，16 个主题可选。
+Markdown → 微信公众号内联样式 HTML，17 个主题可选。
 
 ## 核心特性
 
 - **纯内联样式**：所有 CSS 写在 `style=""` 中，完全符合公众号白名单
 - **零外部依赖**：无 JS、无 `<style>` 标签、无外部字体 CDN
 - **Frontmatter 支持**：自动提取标题、作者、日期、系列、免责声明
-- **16 个主题**：从 voltagent/awesome-design-md 派生的 15 个品牌主题 + 1 个中性 minimal
+- **17 个主题**：15 个从 voltagent/awesome-design-md 派生的品牌主题 + 1 个原创社论风 `economist` + 1 个中性 `minimal`
 - **图片占位提示**：自动标记需要在公众号可视化模式手动上传的图片位置
 - **零依赖**：Python 3.8+ 标准库即可运行
 
@@ -70,11 +71,12 @@ python3 "$SKILL_DIR/scripts/generate_wechat_html.py" --preview-theme posthog > p
 | `--list-themes` | 否 | 列出所有主题并退出 |
 | `--preview-theme <id>` | 否 | 渲染主题样张到 stdout |
 
-## 主题（16 个）
+## 主题（17 个）
 
 | ID | 强调色 | 气质 |
 |---|---|---|
 | `claude` | `#cc785c` 赤陶 | 米色 + 赤陶 · 衬线标题 |
+| `economist` | `#e3120b` 红 | 报纸米色 + 标志红 · 权威社论体 |
 | `stripe` | `#533afd` 靛紫 | 靛紫 + 深海军蓝 · 冷白底 |
 | `vercel` | `#000000` 黑 | 黑白克制 |
 | `apple` | `#0066cc` 系统蓝 | 美术馆精度 |

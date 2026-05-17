@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.1.0 — 2026-05-17
+
+**Added**
+
+- `economist` theme — newsprint cream canvas (`#f7f5f2`) with the signature Economist red accent (`#e3120b`), serif headlines (Georgia / Songti SC fallback) paired with sans-serif body. Editorial / longform-reading focus; best for briefings, market commentary, research articles. Brings the total to 17 themes.
+- [`docs/economist-design.md`](docs/economist-design.md) — the full source DESIGN.md for the theme, included for transparency and as a reference for contributors. Carries an explicit no-affiliation / trademark disclaimer in its preamble.
+- `ATTRIBUTION.md` updated with a separate row for `economist` (since it is **not** derived from voltagent/awesome-design-md) and a trademark note for The Economist Newspaper Limited.
+
+**Changed**
+
+- `SKILL.md` version bumped to 1.1.0.
+- `README.md` / `README.zh.md` / `SKILL.md` theme tables and counts updated 16 → 17. The `economist` row sits between `claude` and `stripe`, grouping the two editorial / serif-leaning themes together.
+
 ## v1.0.0 — 2026-05-16
 
 Initial public release.

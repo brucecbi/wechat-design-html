@@ -1,6 +1,6 @@
 # wechat-design-html
 
-> Markdown → 微信公众号兼容的内联样式 HTML，附 15 个从 [voltagent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 衍生的品牌主题。纯单文件 Python，零依赖。
+> Markdown → 微信公众号兼容的内联样式 HTML，附 17 个设计主题 —— 15 个从 [voltagent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) 衍生的品牌主题、1 个原创社论风 `economist`、1 个无品牌中性 `minimal`。纯单文件 Python，零依赖。
 
 [English](README.md) · MIT License
 
@@ -10,7 +10,7 @@
 
 一个 Claude Code skill：把 Markdown 文件转成 `<section>...</section>` HTML 片段，可以直接粘贴到公众号编辑器的「源代码模式」(`<>`)。所有样式都用 inline `style=""` 写在标签上 —— 没有 `<style>` 标签、没有 `class`、没有 `id`、没有外部 CSS，完整通过公众号 HTML 白名单。
 
-16 个主题是从 voltagent/awesome-design-md（MIT）里的品牌 DESIGN.md 派生而来。每个主题保留品牌的标志强调色 + 合理的中性配色，并降级到公众号实际能渲染的子集。
+17 个主题中的 15 个是从 voltagent/awesome-design-md（MIT）里的品牌 DESIGN.md 派生而来。每个主题保留品牌的标志强调色 + 合理的中性配色，并降级到公众号实际能渲染的子集。`economist` 主题是本仓库内原创的 DESIGN.md 诠释，`minimal` 是无品牌中性基线。
 
 ## 这**不是**什么
 
@@ -30,7 +30,7 @@ ln -s "$PWD/wechat-design-html" ~/.claude/skills/wechat-design-html
 ## 快速上手
 
 ```bash
-# 列出 16 个主题
+# 列出 17 个主题
 python3 ~/.claude/skills/wechat-design-html/scripts/generate_wechat_html.py --list-themes
 
 # 用 Stripe 主题转换文章
@@ -47,13 +47,14 @@ python3 ~/.claude/skills/wechat-design-html/scripts/generate_wechat_html.py --pr
 3. 再点 `<>` 退回可视化模式预览
 4. 图片：脚本会插入占位符。在可视化模式下手动上传后替换占位。
 
-## 16 个主题
+## 17 个主题
 
 每个主题从某品牌的 DESIGN.md 派生，保守地映射到公众号安全的 inline tokens。
 
 | ID | 强调色 | 气质 |
 |---|---|---|
 | `claude` | `#cc785c` 赤陶 | 米色 + 赤陶 · 衬线标题 |
+| `economist` | `#e3120b` 红 | **报纸米色 + 标志红 · 权威社论体** |
 | `stripe` | `#533afd` 靛紫 | 靛紫 + 深海军蓝 · 冷白底 |
 | `vercel` | `#000000` 纯黑 | 黑白克制 |
 | `apple` | `#0066cc` 系统蓝 | 苹果蓝 · 美术馆精度 |
@@ -66,11 +67,13 @@ python3 ~/.claude/skills/wechat-design-html/scripts/generate_wechat_html.py --pr
 | `resend` | `#ff801f` 强调橙 | 极简开发者（亮色变体） |
 | `supabase` | `#3ecf8e` 翡翠绿 | 开源洁净 |
 | `cal` | `#111111` 近黑 | 预约级极简 |
-| `posthog` | `#f7a501` 黄橙 | **米色底 · 顽皮工程感** |
+| `posthog` | `#f7a501` 黄橙 | 米色底 · 顽皮工程感 |
 | `framer` | `#0099ff` 蓝 | 海报级紧致（亮色变体） |
 | `minimal` | `#333333` 中性 | 无品牌基线 · 纯黑白 |
 
 Linear / Resend / Framer 三个品牌的官网主色是深色，但长文在深色公众号阅读对眼睛不友好，因此本仓库提供**亮色诠释**，保留品牌的标志强调色。
+
+`economist` 是唯一一个**不**从 voltagent/awesome-design-md 派生的主题 —— 它的源 DESIGN.md 是本仓库内的原创诠释，位于 [`docs/economist-design.md`](docs/economist-design.md)。详见 [ATTRIBUTION.md](ATTRIBUTION.md) 中关于商标 / 不存在关联关系的说明。
 
 ## Frontmatter
 
@@ -165,7 +168,7 @@ python3 -m pytest tests/
 
 ## 致谢
 
-15 个品牌主题派生自 [voltagent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)（MIT）。详见 [ATTRIBUTION.md](ATTRIBUTION.md) 的逐品牌来源链接。品牌名与视觉系统归属各自所有者；本项目把公开记载的色彩 token 作为**参考**使用，不主张任何关联或背书。
+15 个品牌主题派生自 [voltagent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)（MIT）。`economist` 主题是本仓库内的原创 DESIGN.md 诠释（位于 [`docs/economist-design.md`](docs/economist-design.md)）。详见 [ATTRIBUTION.md](ATTRIBUTION.md) 中的逐品牌来源链接与 Economist 商标 / 不存在关联关系的说明。品牌名与视觉系统归属各自所有者；本项目把公开记载的色彩 token 作为**参考**使用，不主张任何关联或背书。
 
 ## License
 

@@ -1,0 +1,25 @@
+{
+  "id": "economist",
+  "name": "Economist",
+  "source": "docs/economist-design.md (original interpretation included in this repo)",
+  "description": "Editorial style inspired by The Economist — newsprint cream canvas, signature red accent, serif headlines paired with sans utility text. Print-informed digital restraint; best for briefings, longform analysis, market commentary, and research articles.",
+  "preview": "Newsprint cream + Economist red · authoritative editorial",
+  "style": {
+    "accent": "#e3120b",
+    "accent_light": "rgba(227,18,11,0.06)",
+    "accent_border": "rgba(227,18,11,0.2)",
+    "accent_bg": "rgba(227,18,11,0.08)",
+    "text": "#2a2a2a",
+    "text_2": "#1a1a1a",
+    "text_dark": "#111111",
+    "text_light": "#6b6b6b",
+    "text_muted": "#b9b4ad",
+    "bg": "#f7f5f2",
+    "card_bg": "#ffffff",
+    "border": "#d9d4cd",
+    "border_light": "#e5e1db",
+    "font_heading": "Georgia, 'Iowan Old Style', 'Times New Roman', 'Songti SC', 'STSong', 'SimSun', serif",
+    "font_body": "-apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif",
+    "font_mono": "'SF Mono', 'Menlo', 'Consolas', 'Courier New', monospace"
+  }
+}

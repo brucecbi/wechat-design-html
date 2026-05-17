@@ -1,6 +1,6 @@
 # wechat-design-html
 
-> Markdown → WeChat Official Account inline-style HTML, with 15 brand-mapped design themes derived from [voltagent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md). Single-file Python, zero dependencies.
+> Markdown → WeChat Official Account inline-style HTML, with 17 design themes — 15 brand-mapped from [voltagent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md), 1 editorial-style original (`economist`), 1 neutral baseline (`minimal`). Single-file Python, zero dependencies.
 
 [简体中文](README.zh.md) · MIT License
 
@@ -10,7 +10,7 @@
 
 A Claude Code skill that converts a Markdown file into a `<section>...</section>` HTML snippet you can paste straight into the WeChat Official Account editor's "source code mode" (`<>`). Every style is inlined — no `<style>` tag, no `class`, no `id`, no external CSS — so it survives WeChat's HTML whitelist intact.
 
-The 16 themes are mapped from the brand DESIGN.md files in voltagent/awesome-design-md (MIT). Each takes the brand's signature accent + a sensible neutral palette, degraded into the subset WeChat will actually render.
+15 of the 17 themes are mapped from the brand DESIGN.md files in voltagent/awesome-design-md (MIT). Each takes the brand's signature accent + a sensible neutral palette, degraded into the subset WeChat will actually render. The `economist` theme is an original DESIGN.md interpretation included in this repo, and `minimal` is a neutral baseline.
 
 ## What this is **not**
 
@@ -30,7 +30,7 @@ That's it. Python 3.8+ stdlib only.
 ## Quickstart
 
 ```bash
-# List the 16 themes
+# List the 17 themes
 python3 ~/.claude/skills/wechat-design-html/scripts/generate_wechat_html.py --list-themes
 
 # Convert article.md using the Stripe theme
@@ -47,13 +47,14 @@ Then in the WeChat backend:
 3. Click `<>` again to exit source mode and preview
 4. Images: the script inserts placeholders. Replace them by uploading via the visual editor.
 
-## Themes (16)
+## Themes (17)
 
 Each theme is derived from a brand's DESIGN.md, conservatively mapped to WeChat-safe inline tokens.
 
 | ID | Accent | Vibe |
 |---|---|---|
 | `claude` | `#cc785c` terracotta | Cream + terracotta · serif headlines |
+| `economist` | `#e3120b` red | **Newsprint cream + signature red · authoritative editorial** |
 | `stripe` | `#533afd` indigo | Indigo + navy ink · cool white canvas |
 | `vercel` | `#000000` pure black | Black on white · disciplined minimalism |
 | `apple` | `#0066cc` system blue | Apple blue · museum-precision |
@@ -66,11 +67,13 @@ Each theme is derived from a brand's DESIGN.md, conservatively mapped to WeChat-
 | `resend` | `#ff801f` accent-orange | Monochrome developer minimal (light variant) |
 | `supabase` | `#3ecf8e` emerald | Open-source clean |
 | `cal` | `#111111` near-black | Booking-grade minimalism |
-| `posthog` | `#f7a501` yellow-orange | **Playful engineering on cream canvas** |
+| `posthog` | `#f7a501` yellow-orange | Playful engineering on cream canvas |
 | `framer` | `#0099ff` blue | Poster-tight precision (light variant) |
 | `minimal` | `#333333` neutral | No-brand baseline · pure B&W |
 
 Brands shipped with **light interpretations** (Linear, Resend, Framer) because their canonical surface is dark; reading long-form on a black WeChat article is unkind to most readers. The signature accent is preserved.
+
+The `economist` theme is the one theme not derived from voltagent/awesome-design-md — its source DESIGN.md is an original interpretation included in this repo at [`docs/economist-design.md`](docs/economist-design.md). See [ATTRIBUTION.md](ATTRIBUTION.md) for the trademark / no-affiliation note.
 
 ## Frontmatter
 
@@ -165,7 +168,7 @@ python3 -m pytest tests/
 
 ## Attribution
 
-The 15 brand themes are derived from [voltagent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) (MIT). See [ATTRIBUTION.md](ATTRIBUTION.md) for per-brand source links. Brand names and visual identities are property of their respective owners; this project uses publicly-documented color tokens as a *reference* and does not claim affiliation.
+15 of the brand themes are derived from [voltagent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) (MIT). The `economist` theme is an original DESIGN.md interpretation included in this repo at [`docs/economist-design.md`](docs/economist-design.md). See [ATTRIBUTION.md](ATTRIBUTION.md) for per-brand source links and the Economist-trademark / no-affiliation note. Brand names and visual identities are property of their respective owners; this project uses publicly-documented color tokens as a *reference* and does not claim affiliation.
 
 ## License
 

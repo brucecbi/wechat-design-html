@@ -37,6 +37,23 @@ theme.
 
 `minimal` is in-house (no brand attribution).
 
+### Theme not derived from voltagent/awesome-design-md
+
+| Theme | Source DESIGN.md | Trademark holder (referential) |
+|---|---|---|
+| `economist` | [`docs/economist-design.md`](docs/economist-design.md) — original DESIGN.md interpretation included in this repo | The Economist Newspaper Limited |
+
+The `economist` theme's source DESIGN.md was authored independently as
+part of this repository, not derived from voltagent/awesome-design-md.
+It is an original interpretation of the editorial design language
+commonly associated with The Economist magazine. **It is not affiliated
+with, endorsed by, or derived from any official Economist publication
+or asset.** "The Economist" is a trademark of The Economist Newspaper
+Limited; use of the name here is descriptive (to identify the visual
+style being referenced), not commercial or associative. See the
+preamble in [`docs/economist-design.md`](docs/economist-design.md) for
+the full disclaimer.
+
 ## What is preserved from each upstream
 
 For each brand, this project extracts a small set of color tokens
